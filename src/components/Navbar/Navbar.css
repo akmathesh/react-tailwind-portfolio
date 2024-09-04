@@ -1,0 +1,12 @@
+/* .nav_wrapper {
+  @apply lg:flex lg:justify-between lg:items-center lg:px-5 lg:py-0;
+} */
+
+.mediaIcons i {
+  @apply rounded-full px-[6px] font-light py-1 mr-3 text-xs text-white backdrop-filter bg-white/20 hover:bg-white hover:text-black  lg:px-2 lg:py-1 lg:text-base lg:text-white lg:backdrop-filter  lg:hover:bg-white lg:hover:text-black lg:bg-white/20 lg:mx-2 lg:rounded-full;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-tr from-rose-800 to-slate-800;
+    font-family: "Museomoderno", system-ui;
+    /* background-color: #14161b; */
+  }
+}
+
+.bg-primary {
+  background-color: rgb(81, 85, 227);
+}
+
+.bg-secondary {
+  background-color: #243574;
+}
+
+html {
+  scroll-behavior: smooth;
+}
